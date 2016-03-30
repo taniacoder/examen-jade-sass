@@ -1,0 +1,47 @@
+@import"base/_base.scss";
+@import"base/_mixin.scss";
+body{
+	font-family:"Raleway",Helvetica,sans-serif;
+	margin: 0;
+}
+.navbar{
+	background-color:#eeeeee;
+	margin-bottom: 0px; 
+}
+.carousel{
+	border:none;
+}
+.uno{
+	padding-top: 5%;
+}
+.tres {
+	padding: 3%;
+	img {
+		width: 100%;
+	}
+}
+/*nav-paginas*/
+.pages {
+	text-align:center;
+}
+.pagination > li > a, .pagination > li > span{
+	@include estilosnav
+}
+.pagination > li.active a {
+	@include estilosnavactive
+}
+
+.latest {
+	.row {
+		img {
+			width:100%;
+		}
+	}
+}
+
+.blog {
+	padding: 5% 0;
+	img {
+		width: 100%;
+	}
+}

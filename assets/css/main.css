@@ -1,0 +1,75 @@
+.mg-a {
+  margin: auto;
+}
+
+body {
+  font-family: "Raleway",Helvetica,sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #eeeeee;
+  margin-bottom: 0px;
+}
+
+.carousel {
+  border: none;
+}
+
+.uno {
+  padding-top: 5%;
+}
+
+.tres {
+  padding: 3%;
+}
+
+.tres img {
+  width: 100%;
+}
+
+/*nav-paginas*/
+.pages {
+  text-align: center;
+}
+
+.pagination > li > a, .pagination > li > span {
+  background-color: #fff;
+  color: #000;
+  border: none;
+}
+
+.pagination > li > a:hover, .pagination > li > span:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.pagination > li.active a {
+  background-color: #fff;
+  color: #000;
+  border: none;
+}
+
+.pagination > li.active a:hover {
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+}
+
+.pagination > li.active a:focus {
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+}
+
+.latest .row img {
+  width: 100%;
+}
+
+.blog {
+  padding: 5% 0;
+}
+
+.blog img {
+  width: 100%;
+}
